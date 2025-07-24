@@ -12,7 +12,7 @@ Require: Composer
 
 # Step untuk menjalankan
 
-1. composer install
+1. nyalakan xampp apache % composer install di terminal 
 
 2. Copy paste .env.example lalu rename file tersebut menjadi .env
 
