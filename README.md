@@ -24,9 +24,11 @@ DB_DATABASE=frederico_crm
 DB_USERNAME=(username_postgres_anda)
 DB_PASSWORD=(password_postgres_anda)
 
-4. lakukan "php artisan key:generate" di terminal.
+5. Buat Database bernama frederico_crm di pgsql anda
 
-5. Jalankan "php artisan migrate:fresh --seed" di terminal. 
+6. lakukan "php artisan key:generate" di terminal.
 
-6. Jalankan "php artisan migrate:fresh --seed"
+7. Jalankan "php artisan migrate:fresh --seed" di terminal. 
+
+8. Jalankan "php artisan migrate:fresh --seed"
 
