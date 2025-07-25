@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('lead_id')->constrained()->onDelete('cascade');
             $table->foreignId('user_id')->constrained(); 
+            $table->foreignId('product_id')->constrained()->onDelete('cascade'); 
             $table->string('status')->default('pending');
             $table->foreignId('approved_by')->nullable()->constrained('users');
             $table->timestamp('approved_at')->nullable();
